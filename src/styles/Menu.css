@@ -1,0 +1,140 @@
+.menu {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.menu-card {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.carousel-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Added gap to create space between items */
+}
+
+.menu-slide-wrapper {
+  flex: 1 1 calc(25% - 20px); /* Adjusts the width of each item to be 25% of the container minus margins */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.menu-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(163, 16, 16);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 15px; /* Added padding inside each menu slide */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for better separation */
+}
+
+.menu-slide:hover {
+  transform: scale(1.05);
+}
+
+.menu-slide img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Added margin-bottom to separate the image from the content */
+}
+
+.menu-desc {
+  padding: 10px;
+}
+
+.menu-heading {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu-content {
+  font-size: 14px;
+  color: white;
+}
+
+.menu-now {
+  display: block;
+  width: 80%; /* Reduced button width for better fit */
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px; /* Added margin-top to separate the button from the content */
+  border-radius: 5px; /* Added some border-radius for a smoother button appearance */
+}
+
+.menu-now:hover {
+  background-color: rgb(218, 205, 15);
+}
+
+.menu-title {
+  color: red;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.app-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.app-img-desktop {
+  max-width: 50%;
+  height: auto;
+}
+
+.app-download-wrapper {
+  max-width: 40%;
+  text-align: center;
+}
+
+.app-download {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.app-download-wrapper p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.appdownload-img {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.appdownload-img li {
+  margin: 0 10px;
+}
+
+.appdownload-img img {
+  width: 120px;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100px; /* Set a maximum height to make the images smaller */
+}

@@ -1,0 +1,35 @@
+/* Outermost container of the GiftCards component */
+.gift-cards-container {
+  padding: 20px; /* Add padding to the whole screen */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center the content horizontally */
+}
+
+/* Gift card content container */
+.gift-card-content {
+  display: flex; /* Use flexbox to arrange items */
+  justify-content: space-around; /* Distribute items evenly */
+  max-width: 800px; /* Limit the maximum width */
+}
+
+/* Individual block */
+/* Individual block */
+.col {
+  padding: 20px; /* Add padding to each block */
+  text-align: center; /* Center the content horizontally */
+  max-width: 350px; /* Limit the maximum width of each block */
+  border: 1px solid #ccc; /* Add border around each block */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  margin: 10px; /* Add margin to create space between blocks */
+  background-color: #f1e9e9;
+}
+
+/* Image inside the block */
+.col img {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+}
+
+/* Text below the image */
+.col p {
+  margin-top: 10px; /* Add some spacing between the image and the text */
+}

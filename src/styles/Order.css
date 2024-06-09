@@ -1,0 +1,87 @@
+.order-container {
+  display: flex;
+}
+
+.menu-add {
+  width: 70%;
+  padding-right: 20px;
+  margin-top: 55px;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cart {
+  width: 30%;
+  padding: 10px;
+  background-color: #e2d116;
+  margin-top: 55px;
+  overflow-y: auto; /* Add this line to make the container scrollable */
+  max-height: calc(100vh - 200px); /* Adjust the max-height as needed */
+}
+
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pizza-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #4CAF50;
+  text-align: center;
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+
+.pizza-item.Non-Veg {
+  background-color: rgba(223, 113, 18, 0.911);
+}
+
+.pizza-item img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  .pizza-item {
+    width: calc(33.33% - 20px);
+  }
+}
+
+.cart-container h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+
+.container {
+  color: white;
+}
+
+.dropdown-item {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+#selectedOption {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
